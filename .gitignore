@@ -1,0 +1,22 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# =========================
+# Credentials (JAMAIS)
+# =========================
+.config/
+*.json
+application_default_credentials.json
+
+# =========================
+# Data (lourd / parquet / csv)
+# =========================
+data/*.parquet
+data/*.csv
+yellow_tripdata_2024-11.parquet
